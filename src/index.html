@@ -1,12 +1,58 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pockemon Go</title>
+  <link rel="stylesheet" href="fontello.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" type="module"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="contenedor">
+      <h1><input type="text" style="width: 228px; height: 30px"
+        size=20 placeholder="Buscador"></h1>
+      <input type="checkbox" id= "menu-bar">
+      <label for="menu-bar"><img src="poke-red.png" alt="icono de pokebola rojo"></label>
+      <nav class="menu">
+        <a href="">Inicio</a>
+        <a href="">Tipo</a>
+        <a href="">Debilidad</a>
+        <a href="">Todos</a>
+       
+      </nav>
+
+
+    </div>
+    
+   
+   </header>
+
+   <section id="banner">
+    <img src="imagen-inicial.jpg" alt="imagen pokemon primera generación">
+    
+  </section>
+
+<!-- ESTO SE IRA A HTML DINAMICO ES SOLO PARA VISUALIZAR-->
+   <main>
+     <section id="text1InitialPage">
+      <p>Conoce en detalle a cada Pokémon de la Primera Generación.
+       Te mostraremos nuevas actualizaciones y mucho más!</>
+     </section>
+     <section id="text2InitialPage">
+     <p>Únete a otros Entrenadores de todos los rincones que ya han descubierto muchos Pokémon explorando 
+      el mundo que les rodea.</p>
+     </section>
+  </main>
+  
+  <footer>
+    <p>©2020 Niantic, Inc. ©2020 Pokémon. ©1995 - 2020 Nintendo / Creatures Inc. / GAME FREAK inc.</p>
+   </footer>
+  <div id="root"></div>
+  
+  
+</body>
 </html>
