@@ -14,8 +14,7 @@ FOTOS FINAL
 
  ### PRIMER PROTOTIPO 
 
-   (https://photos.app.goo.gl/LZQKffAtfavLVLo67) 
-
+![screen1]()
  ### USUARIOS
    Los principales usuarios de nuestra web son jugadores de Pokémon Go que deseen saber y conocer a fondo a cada pokémon.
    Definimos que los usuarios parten desde los 10 años apróximadamente hasta usuarios nostálgicos de la serie de unos 45 años.
