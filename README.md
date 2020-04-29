@@ -3,18 +3,19 @@
 ## RESUMEN
 Este proyecto usa una base de datos de pokémon para que los usuarios principiantes puedan buscar información que les ayude a obtener pokemones con ciertas características o encontrar las fortalezas en los que ya tienen.
 
-* 
+*** 
+
 
 ## PRESENTACIÓN
 FOTOS FINAL
 
-* 
+***
 
 ## INVESTIGACIÓN UX 
 
  ### PRIMER PROTOTIPO 
 
-![screen1]()
+![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/Captura%20de%20pantalla%202020-04-23%20a%20la(s)%2000.27.59.png)
  ### USUARIOS
    Los principales usuarios de nuestra web son jugadores de Pokémon Go que deseen saber y conocer a fondo a cada pokémon.
    Definimos que los usuarios parten desde los 10 años apróximadamente hasta usuarios nostálgicos de la serie de unos 45 años.
