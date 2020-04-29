@@ -65,19 +65,25 @@ de los hallazgos.
 - Guiar al usuario que no está familiarizado aún con todos los conceptos de Pokémon.
 - Se mostraran tips en el "home" para que el usuario pueda conocer mas sobre los pokémons y 
   así podamos guiar un poco sus busquedas.
+  - se crea una barra lateral con tips, que al ser presionados se depliega la informacion con ejemplos e imagenes.
 
 # Historia 6
 - Usuario quiera conocer mas sobre un pokémon, luego de haber realizado su busqueda.
 - Al seleccionar un pokemon se despliega una ficha con datos (Debilidad, tipo, caramelos,  
   ataques, etc)
+  - crear un contenedor para mostar la informacion en la pantalla.( color bordes, posicion)
+  - mostrar en pantalla toda la informacion de la data.
 
 # Historia 7
 - Mostrar las Evoluciónes de un pokémon
-- En la ficha de datos se mostrarán las evoluciones y desde ahí podemos ir a la ficha de 
-  información.
+- En la ficha de datos al apretar una pestaña se desplegara una pestaña con imagenes y nombres de las evoluciones del pokemon.
+- crear pestaña desplegable.
+- llevar la informacion de las eoluciones a la pantalla.
 
 # Historia 8
-Volver al Home
+- usuario desea volver a la pantalla inicial.
+- crear un icono de "casa" que al presionarlo nos devuelva a la pantalla inicial.
 
 # Historia 9 
-Buscador por x
+- usuario desea buscar un pokemon en especifico.
+- se crear un imput el cual segun lo que ingrese el usuario buscara concordancia con la data y lo mostrara en pantalla.
