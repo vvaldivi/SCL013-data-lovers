@@ -15,25 +15,25 @@ FOTOS FINAL
 
  ### PROTOTIPOS 
  + Prototipo papel y lápiz
- ![screen1](papel1)
- ![screen1](papel2)
- ![screen1](papel3)
+ ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/papel1.jpeg)
+ ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/papel2.jpeg)
+ ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/papel3.jpeg)
 
  + Prototipo en Invision
- ![screen1](invision1)
- ![screen1](invision2)
- ![screen1](invision3)
+ ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/invision1.jpg)
+ ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/invision2.jpg)
+ ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/invision3.jpg)
 
  + Prototipos en Figma
 
   + Escritorio 
- ![screen1](escritorio1)
- ![screen1](escritorio2)
+ ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/Escritorio1.png)
+ ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/escritorio2.png)
  ![screen1](escritorio3)
 
  + móvil
- ![screen1](celular1)
- ![screen1](celular2)
+ ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/Celular1.png)
+ ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/Celular2.png)
  
 ***
 
