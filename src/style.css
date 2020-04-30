@@ -8,9 +8,6 @@
 body{
     font-family: sans-serif;
     background: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 /*main {
@@ -70,6 +67,7 @@ header label{
 
 }
 .menu{
+
     position: absolute;
     background: linear-gradient(0deg, #EA2222, #EA2222);
     box-sizing: border-box;
@@ -147,11 +145,11 @@ a{
 
  #root{
      display: flex;
+     box-sizing: content-box;
      flex-direction: column;
      width: 100%;
-     height: 100%;
      margin: auto;
-     padding: 10px;
+     padding: 0px;
  }
 
 img{
@@ -235,13 +233,13 @@ footer{
 }
 
 @media (min-width: 600px) {
-        .menu{
+    
+    .menu{
+        display: flex;
         position: static;
         width: auto;
         height: auto;
         transform: translateX(0%);
-        float: ri;
-        display: flex;
     }
 
     .submenu{
@@ -261,35 +259,36 @@ footer{
         background: linear-gradient(0deg, #EA2222, #EA2222);
 
     }
+    #banner{
+        display:none;
+    }
 
     #root{
+        box-sizing: content-box;
+        display: flex;
+        justify-content: flex-end;
         background-image: url(imagen-inicial.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         margin-top:40px ;
-        padding:20%;
+        padding:15%;
     }
 
     footer{
-        align-items: baseline;
         background: rgba(9, 8, 8, 0.42);
+        width: 90%;
+        
+
    }
     
-    #text1InitialPage{
-        left: 1.6%;
-        right: 69.65%;
-        top: 16.78%;
-        bottom: 63.22%;  
+   #text1InitialPage{
         background: rgba(0, 0, 0,.6);
+        width: 50%;
+        
     }
     #text2InitialPage{
-        float: right;
         background: rgba(0, 0, 0,.6);
+        width: 50%;
     }
-
-
-
-    
-
  
 }
