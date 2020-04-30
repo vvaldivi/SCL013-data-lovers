@@ -1,11 +1,22 @@
-# Data Lovers
+# DATAMON
 
-# RESUMEN 
+***
+
+## Índice
+
+* [1. Resumen del proyecto](#1-RESUMEN-DEL-PROYECTO)
+* [2. PRESENTACIÓN](#2-PRESENTACIÓN)
+* [3. INVESTIGACIÓN UX](#3-INVESTIGACIÓN-UX)
+* [4. USUARIOS](#4-USUARIOS)
+
+***
+
+# RESUMEN DEL PROYECTO
 Este proyecto usa una base de datos de pokémon para que los usuarios de Pokémon GO puedan buscar información que les ayude a obtener pokémon con ciertas características o encontrar las fortalezas en los que ya tienen.
 
 *** 
 
-# PRESENTACIÓN
+# PRESENTACIÓN 
 // IMG APARIENCIA FINAL
 
 ***
