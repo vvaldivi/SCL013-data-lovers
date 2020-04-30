@@ -14,27 +14,25 @@ Este proyecto usa una base de datos de pokémon para que los usuarios de Pokémo
 
  ## PROTOTIPOS 
  
- ### PAPEL Y LÁPIZ
+ ### PROTOTIPO IDEA EN PAPEL Y LÁPIZ
  ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/papel1.jpeg)
  ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/papel2.jpeg)
  ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/papel3.jpeg)
- 
- ### EN INVISION
+ ***
+ ### PROTOTIPO LINEAS
  ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/invision1.jpg)
  ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/invision2.jpg)
  ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/invision3.png)
- 
- ### EN FIGMA
- 
- #### Versión escritorio 
+ ***
+ ### PROTOTIPO EN ALTA VERSIÓN ESCRITORIO
  ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/Escritorio1.png)
  ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/escritorio2.png)
- 
- #### Versión móvil
+ ***
+ ### PROTOTIPO EN ALTA VERSIÓN PARA MÓVIL
  ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/Celular1.png)
  ![screen1](https://github.com/vvaldivi/SCL013-data-lovers/blob/master/img%20readme/Celular2.png)
- 
- #### - Testeo en usuarios
+ ****
+ ### TESTEO EN USUARIOS
 Se realizó un testeo con usuarios entre 10 a 30 años, quienes nos indicaron que los colores siguen la identidad gráfica de Pokémon, que es agradable e intuitiva. Como sugerencia nos indicaron cambiar la simbología de la ficha del pokémon o que al pasar el cursor explique que son los símbolos ya que pueden ser poco claros.
  
 ***
