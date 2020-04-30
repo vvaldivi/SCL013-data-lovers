@@ -2,7 +2,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;
+    
 }
 
 body{
@@ -11,9 +12,22 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+
 }
 
-
+main {
+    width: 90%;
+    height:  90%;    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+  
+    
+  
+    
+    
+}
 
 header{
     width: 100%;
@@ -43,15 +57,6 @@ input{
 #menu-bar{
     display: none;
 }
-#inicio{
-    display: none;
-}
-#tipo{
-    display: none;
-}
-#debilidad{
-    display: none;
-}
 
 header label{
     float: left;
@@ -61,8 +66,9 @@ header label{
 
 }
 .menu{
-    position: relative;
+    position: absolute;
     background: linear-gradient(0deg, #EA2222, #EA2222);
+    border: 1px solid #000000;
     box-sizing: border-box;
     top: 0;
     left: 0;
@@ -71,53 +77,24 @@ header label{
     /*background: rgba(51, 51, 51, 0.9);*/
     transition: all 0.5s;
     transform: translateX(-100%);
+
 }
 
 header.contenedor{
     display: table;
 }
 
-a:link{
-    text-decoration:none;
-
-}
-
-a{
-    color:white;
-}
-
-.menu li {
+.menu a{
     display: block;
     color: white;
-    height: 50px;
+    height: 58px;
     text-decoration: none;
     padding: 15px;
     border-bottom: 1px solid rgba(255,255,255,0.3);
 }
-.submenu{
-    margin-top:17px;
-    margin-left: -15px;
-    position: absolute;
-    visibility: hidden;
-    width: 100%;
-    opacity: 0;
-    transition: opacity 1.05s;
-}
 
-.submenu li{
-    display: block;
-    padding: 5px;
-    background: linear-gradient(0deg, #EA2222, #EA2222);
-
-}
-.menu li:hover .submenu{
-    visibility: visible;
-    opacity: 1;
-
-}
-
-.menu li:hover{
-    background: rgba(65, 63, 63, 1) ;
+.menu a:hover{
+    background: rgba(255, 255, 255, 0.3) ;
 }
 #menu-bar:checked ~.menu{
     transform: translateX(0%);
@@ -129,23 +106,15 @@ a{
  }
  
  #banner{
-     margin-top: 50px;  
+     margin-top: 50px;
+    
 
  }
 
- #root{
-     display: flex;
-     flex-direction: column;
-     width: 100%;
-     height: 100%;
-     margin: auto;
-     padding: 10px;
- }
-
-img{
+#banner img{
     width: 100%;
     height: 100%;
-   
+    order: 1;
 }
 /*
 #banner.contenedor{
@@ -156,9 +125,7 @@ img{
 
 
 #text1InitialPage{
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    order: 2;
     text-align: center;
     width: 90%;
     height: 90%;
@@ -178,8 +145,8 @@ img{
 }
 
 #text2InitialPage{
-    margin:0 auto;
     justify-content: center;
+    order: 3;
     width: 90%;
     height: 90%;
     background: #FFBB0E;
@@ -198,10 +165,6 @@ img{
 }
 
 footer{
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top:10%;
-    margin-bottom:0%;
     width: 95%;
     height: 95%;
     background: rgba(81, 80, 80, 0.85);
@@ -215,74 +178,3 @@ footer{
     text-align: center;
     color: #FFF8F8;
 }
-
-@media (min-width: 600px) {
-        .menu{
-        position: static;
-        width: auto;
-        height: auto;
-        transform: translateX(0%);
-        float: ri;
-        display: flex;
-    }
-
-    .menu li {
-        border: none;   
-    }
-
-    #banner{
-        display:none;
-    }
-
-    #root{
-        display: flexbox;
-        background-image: url(imagen-inicial.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-top:40px ;
-        padding:20%;
-    }
-    footer{
-        align-items: baseline;
-        background: rgba(9, 8, 8, 0.42);
-   }
-    
-    #text1InitialPage{
-        left: 1.6%;
-        right: 69.65%;
-        top: 16.78%;
-        bottom: 63.22%;  
-        background: rgba(0, 0, 0,.6);
-    }
-    #text2InitialPage{
-        float: right;
-        background: rgba(0, 0, 0,.6);
-    }
-
-    .submenu{
-        margin-top:17px;
-        margin-left: -15px;
-        position: absolute;
-        visibility: hidden;
-        width: 30%;
-        opacity: 0;
-        transition: opacity 1.05s;
-        
-
-    }
-
-    .submenu li{
-        display: block;
-        padding: 5px;
-        background: linear-gradient(0deg, #EA2222, #EA2222);
-
-    }
-    .menu li:hover .submenu{
-        visibility: visible;
-        opacity: 1;
-
-    }
-   
- 
-}
-
